@@ -1,10 +1,10 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Crowdfunding Dashboard*
 
-Submitted by: **Your Name Here**
+Submitted by: **Marisol Mata Nevarez**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Crowdfunding Dashboard** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
@@ -17,28 +17,24 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [ ] Clicking on the game cards opens a dialog that prompts the user to enter an amount to pledge while showing fundraising goal and current pledges for said game. Clicking "Pledge" opens another dialog thanking the user for their pledge. 
+* [ ] The user is able to filter games by title via using the search bar below the filter buttons.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/GFg4mnM' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with Kap.
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I did not face many challenges in the creation of the app. I did have to consult JavaScript documentation and forums to get the logic of the dialogs working, especially around event propagations. I did spend more time reviewing arrow functions. One thing that was difficult was re-applying event listeners when games were removed from the container. My styling is not the best, so I would add to that if I had more time.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2026 Marisol Mata Nevarez
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

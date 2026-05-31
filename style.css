@@ -21,6 +21,14 @@ body {
 
 .stats-container {
     display: flex;
+    font-size: 20;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -72,4 +80,29 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#first-game {
+    color: white;
+}
+
+#second-game {
+    color: white;
+}
+
+.search-container {
+    font-family: sans-serif;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
 }
